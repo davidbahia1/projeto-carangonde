@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { useState } from 'react'
-import imglogo from './assets/logo.png'
+import imglogo from '../assets/logo.png'
 
 export const Header = () => {
   return (

@@ -1,9 +1,14 @@
 import { useState } from 'react'
+import './cidadania.css'
 
 function CIDADANIA(){
     return(
         <section>
-            <h1>CONSTRUINDO CIDADANIA</h1>
+        <div className='cidadaniadiv'>
+            <div>
+                <h1 className='imgtext'>CONSTRUINDO CIDADANIA</h1>
+            </div>
+        </div>
         </section>
     )
 

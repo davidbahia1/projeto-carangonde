@@ -1,21 +1,26 @@
 import { useState } from "react";
-
+import imglogo from '../assets/logo.png'
+import './Footer.css'
+import imginstagram from '../assets/instagram.svg'
+import imgwhatsapp from '../assets/whatsapp.svg'
 function Footer(){
     return (
         
-       <section> 
+       <section className="footer"> 
         <div>
-        <div>
-          <img src="" alt="" />  
+        <div className="dive">
+        <img src={imglogo} alt=""></img>
         </div>
+       
+        </div>
+    
+        <div className="div-loc">
         <h4>LOCALIZAÇÃO</h4>
+            <h4>CONTATOS</h4>
         </div>
-        <div>
-            <img src="" alt="logo wpp" />
-            <img src="" alt="logo insta" />
-        </div>
-        <div>
-            <h1>CONTATOS</h1>
+        <div className="div-img">
+           <a href="" target="blank"> <img src={imgwhatsapp}alt="logo wpp" /></a>
+          <a  href="" target="blank"> <img src={imginstagram} alt="logo insta" /></a> 
         </div>
         </section>
     )
